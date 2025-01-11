@@ -82,6 +82,6 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 - **Praćenje rezultata:** Pobjednik svake igre bilježi se u povijesti prikazanoj nakon meča.
 
 ## 📞 Kontakt i povratne informacije
-Ako naiđete na probleme ili imate prijedloge, slobodno doprinesite ili ih prijavite. Vaše povratne informacije su vrlo cijenjene! 😊
+Ako primijetite poteškoće ili imate prijedloge za poboljšanje, slobodno nam se obratite ili podijelite svoje ideje. Vaše povratne informacije su nam iznimno vrijedne i pomažu u daljnjem razvoju igre! 😊
 
 ## Uživajte u igri i neka najbolji igrač pobijedi! 🏆

@@ -1,6 +1,6 @@
 ## Pong-Igra 🏓
-Modernizirana verzija klasične Pong igre, izrađena u C++ jeziku koristeći konzolnu grafiku.  
-Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanja i prilagođene zaslone za početak, kraj i zahvalu.
+Modernizirana verzija klasične Pong igre, jedne od prvih arkadnih igara napravljena 1972. godine. Izrađena u C++ jeziku koristeći konzolnu grafiku. 
+Igra nudi sudjelovanje dvoje igrača s kontrolom palica, sustavom bodovanja i prilagođene zaslone za početak i kraj.
 
 ---
 
@@ -48,10 +48,10 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
   Zaslon dobrodošlice s uputama za početak ili izlazak.  
 - **Igra**:  
   - Lijeva i desna palica koje kontroliraju igrači.  
-  - Dinamično kretanje lopte koja mijenja smjer prilikom sudara.  
+  - Dinamično kretanje lopte koja mijenja smjer prilikom sudara ili zidom.  
   - Rezultat se prikazuje na dnu zaslona.  
 - **Završni zaslon**:  
-  Prikazuje pobjednika, konačni rezultat i povijest svih prijašnjih pobjednika.  
+  Prikazuje pobjednika, konačni rezultat svakog igrača i povijest svih prijašnjih pobjednika.  
 - **Zaslon zahvale**:  
   Prikazuje poruku zahvale prije zatvaranja igre.
 
@@ -64,12 +64,11 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 ---
 
 ## ⚙️ Postavljanje i instalacija
-1. Spremite izvorni kod igre u datoteku, primjerice `pong.cpp`.
-2. Otvorite terminal ili naredbeni redak.
-3. Kompajlirajte program:
-   ```bash
-   g++ -o pong pong.cpp
-4. Pokrenite igru:
+1.Spremite izvorni kod igre u datoteku (svaki .cpp i .hpp file, kao što su game.hpp, game.cpp, main.cpp i ostali).
+2.Otvorite svoj IDE (npr. Visual Studio, CodeBlocks, ...).
+3.Kreirajte novi projekt i dodajte sve preuzete .cpp i .hpp datoteke.
+3.Kompajlirajte program preko opcije Build ili Kompajliraj.
+4.Pokrenite igru preko opcije Run ili Pokreni.
 
 ---
 
@@ -98,7 +97,6 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 	- **Paddle:** Predstavlja palice igrača, upravljajući njihovim položajem i kretanjem.
 	- **Ball:** Upravljanje ponašanjem lopte, uključujući položaj, smjer i sudare.
 	- **Game:** Upravljanje petljom igre, bodovanjem, unosima i općom logikom.
-	- **Dinamična fizika lopte:** Lopta nasumično mijenja smjer prilikom sudara, što dodaje sloj izazova.
 - **Praćenje rezultata:** Pobjednik svake igre bilježi se u povijesti prikazanoj nakon meča.
 
 ---

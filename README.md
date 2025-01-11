@@ -70,6 +70,8 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
    ```bash
    g++ -o pong pong.cpp
 4. Pokrenite igru:
+
+---
   
 ## 🛠️ Dodatne Informacije
 - **Programski jezik:** C++
@@ -80,6 +82,8 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 	- **Game:** Upravljanje petljom igre, bodovanjem, unosima i općom logikom.
 	- **Dinamična fizika lopte:** Lopta nasumično mijenja smjer prilikom sudara, što dodaje sloj izazova.
 - **Praćenje rezultata:** Pobjednik svake igre bilježi se u povijesti prikazanoj nakon meča.
+
+---
 
 ## 📞 Kontakt i povratne informacije
 Ako primijetite poteškoće ili imate prijedloge za poboljšanje, slobodno nam se obratite ili podijelite svoje ideje. Vaše povratne informacije su nam iznimno vrijedne i pomažu u daljnjem razvoju igre! 😊

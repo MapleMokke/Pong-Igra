@@ -21,7 +21,7 @@ using namespace std;
 const int WIDTH = 40;
 const int HEIGHT = 20;
 const int PADDLE_SIZE = 4;
-const int WIN_SCORE = 2;
+const int WIN_SCORE = 5;
 
 class Game {
 private:

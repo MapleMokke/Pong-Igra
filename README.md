@@ -64,11 +64,11 @@ Igra nudi sudjelovanje dvoje igrača s kontrolom palica, sustavom bodovanja i pr
 ---
 
 ## ⚙️ Postavljanje i instalacija
-- 1.Spremite izvorni kod igre u datoteku (svaki .cpp i .hpp file, kao što su game.hpp, game.cpp, main.cpp i ostali).
-- 2.Otvorite svoj IDE (npr. Visual Studio, CodeBlocks, ...).
-- 3.Kreirajte novi projekt i dodajte sve preuzete .cpp i .hpp datoteke.
-- 3.Kompajlirajte program preko opcije Build ili Kompajliraj.
-- 4.Pokrenite igru preko opcije Run ili Pokreni.
+1. Spremite izvorni kod igre u datoteku (svaki .cpp i .hpp file, kao što su game.hpp, game.cpp, main.cpp i ostali).
+2. Otvorite svoj IDE (npr. Visual Studio, CodeBlocks, ...).
+3. Kreirajte novi projekt i dodajte sve preuzete .cpp i .hpp datoteke.
+4. Kompajlirajte program preko opcije Build ili Kompajliraj.
+5. Pokrenite igru preko opcije Run ili Pokreni.
 
 ---
 

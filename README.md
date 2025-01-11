@@ -26,8 +26,8 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 |           | K         | Pomicanje palice prema dolje. |
 
 - **Dodatne tipke:**		
-	**Enter:** Započni igru ili ponovno pokreni nakon završetka.
-	**Q:** Izađi iz igre.
+	- **Enter:** Započni igru ili ponovno pokreni nakon završetka.
+	- **Q:** Izađi iz igre.
 
 ---
 

@@ -5,7 +5,7 @@
 const int WIDTH = 40;
 const int HEIGHT = 20;
 const int PADDLE_SIZE = 4;
-const int WIN_SCORE = 2;
+const int WIN_SCORE = 5;
 
 Ball::Ball(int startX, int startY) : x(startX), y(startY), direction(STOP) {}
 

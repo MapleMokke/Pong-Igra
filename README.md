@@ -74,7 +74,6 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 ---
 
 ## ⚠️ Problemi tijekom izrade  
-- ## ⚠️ Problemi tijekom izrade  
 - **Bljeskanje ekrana**: Tijekom igre, zbog učestalog ažuriranja prikaza u konzoli, pojavilo se bljeskanje ekrana. Problem je riješen kombinacijom funkcije za sakrivanje pokazivača (`hideCursor`) i optimizacijom crtanja elemenata.  
 	- **Sakrivanje pokazivača**: implementacija prilagođene funkcije `hideCursor`, koja je ujedno pomogla i u rješavanju problema s bljeskanjem ekrana.  
 	- **Pozicioniranje elemenata**: Ručno pozicioniranje elemenata na konzolnom zaslonu oslanjalo se na funkciju `gotoxy`

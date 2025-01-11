@@ -72,6 +72,25 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 4. Pokrenite igru:
 
 ---
+
+## ⚠️ Problemi tijekom izrade  
+- ## ⚠️ Problemi tijekom izrade  
+- **Bljeskanje ekrana**: Tijekom igre, zbog učestalog ažuriranja prikaza u konzoli, pojavilo se bljeskanje ekrana. Problem je riješen kombinacijom funkcije za sakrivanje pokazivača (`hideCursor`) i optimizacijom crtanja elemenata.  
+	- **Sakrivanje pokazivača**: implementacija prilagođene funkcije `hideCursor`, koja je ujedno pomogla i u rješavanju problema s bljeskanjem ekrana.  
+	- **Pozicioniranje elemenata**: Ručno pozicioniranje elemenata na konzolnom zaslonu oslanjalo se na funkciju `gotoxy`
+- **Optimizacija dinamičke fizike lopte**: Precizno podešavanje slučajnih smjerova lopte bilo je izazovno kako bi se osigurala ravnoteža između izazova i igrivosti.  
+- **Ograničenja prenosivosti**: Korištenje specifičnih Windows funkcija (poput `conio.h`) onemogućilo je jednostavno pokretanje igre na drugim operativnim sustavima.  
+
+---
+
+## 💡 Moguća poboljšanja  
+- Zamjena `conio.h` biblioteke s prenosivim rješenjem za širu kompatibilnost (npr. korištenje cross-platform knjižnica poput SDL-a).  
+- Dodavanje naprednih opcija igre, poput različitih razina težine ili modova za jednog igrača protiv računala.  
+- Unapređenje vizualnog prikaza igre uvođenjem grafičkog sučelja (GUI) koristeći moderni grafički framework.  
+- Proširenje povijesti pobjednika s opcijom spremanja podataka u datoteku radi dugoročnog praćenja rezultata.  
+- Optimizacija kontrole palica za još preciznije upravljanje tijekom igre.
+
+---
   
 ## 🛠️ Dodatne Informacije
 - **Programski jezik:** C++

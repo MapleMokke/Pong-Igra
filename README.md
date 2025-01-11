@@ -24,6 +24,7 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 |           | S         | Pomicanje palice prema dolje. |
 | Igrač 2   | I         | Pomicanje palice prema gore.  |
 |           | K         | Pomicanje palice prema dolje. |
+
 | **Dodatno** | Enter    | Započni igru ili ponovno pokreni nakon završetka. |
 |           | Q         | Izađi iz igre.               |
 
@@ -67,11 +68,9 @@ Igra nudi jednozaslonsku igru za dva igrača s kontrolom palica, sustav bodovanj
 3. Kompajlirajte program:
    ```bash
    g++ -o pong pong.cpp
-Pokrenite igru:
-bash
-Copy code
-./pong
-🛠️ Dodatne Informacije
+4. Pokrenite igru:
+  
+## 🛠️ Dodatne Informacije
 Programski jezik: C++
 Osnovne klase igre:
 Screen: Bazna klasa za upravljanje zaslonima poput početnog, završnog i zaslona zahvale.
@@ -80,7 +79,8 @@ Ball: Upravljanje ponašanjem lopte, uključujući položaj, smjer i sudare.
 Game: Upravljanje petljom igre, bodovanjem, unosima i općom logikom.
 Dinamična fizika lopte: Lopta nasumično mijenja smjer prilikom sudara, što dodaje sloj izazova.
 Praćenje rezultata: Pobjednik svake igre bilježi se u povijesti prikazanoj nakon meča.
-📞 Kontakt i povratne informacije
+
+## 📞 Kontakt i povratne informacije
 Ako naiđete na probleme ili imate prijedloge, slobodno doprinesite ili ih prijavite. Vaše povratne informacije su vrlo cijenjene! 😊
 
 Uživajte u igri i neka najbolji igrač pobijedi! 🏆
